@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sutton</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <style>
+        body {
+            background-image: url('background.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .profile-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin: 0 auto;
+        }
+        .button-large {
+            padding: 0.9rem 2rem;
+            font-size: 1.1rem;
+            width: 100%;
+            max-width: 500px;
+            box-sizing: border-box;
+            transition: transform 0.2s, background-color 0.2s;
+        }
+        .button-large:hover {
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body class="flex flex-col items-center justify-center min-h-screen p-4">
+    <div class="text-center mb-4">
+        <img src="logo.png" alt="Profile Image" class="profile-image">
+        <h1 class="text-2xl font-bold text-black mt-4">@sutton</h1>
+    </div>
+    
+    <ul class="text-center w-full max-w-md">
+        <li class="mb-3">
+            <a href="https://www.example.com" class="button-large block bg-black text-white rounded-3xl mx-auto" aria-label="Portfolio">Portfolio</a>
+        </li>
+        <li class="mb-3">
+            <a href="https://www.example.com" class="button-large block bg-black text-white rounded-3xl mx-auto" aria-label="Articles">Articles</a>
+        </li>
+        <li class="mb-3">
+            <a href="https://www.example.com" class="button-large block bg-black text-white rounded-3xl mx-auto" aria-label="Curriculum">Curriculum</a>
+        </li>
+        <li class="mb-3">
+            <a href="https://www.example.com" target="_blank" class="button-large block bg-black text-white rounded-3xl mx-auto" aria-label="Twitter">Twitter</a>
+        </li>
+        <li class="mb-3">
+            <a href="https://www.example.com" target="_blank" class="button-large block bg-black text-white rounded-3xl mx-auto" aria-label="GitHub">GitHub</a>
+        </li>
+    </ul>
+
+</body>
+</html>
